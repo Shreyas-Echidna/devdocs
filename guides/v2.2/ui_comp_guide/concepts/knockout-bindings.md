@@ -250,12 +250,12 @@ The `mageInit` binding is an adapter for the `[data-mage-init]` attribute that i
 
 **Usage example**: creating modal window
 ```html
-<div mageInit="{
+<div data-bind="mageInit: {
     'Magento_Ui/js/modal/modal': {
-        autoOpen: true,
-        buttons: false,
-        modalClass: 'modal-system-messages',
-        title: 'Hello world!'
+        'autoOpen':true, 
+        'buttons': false, 
+        'modalClass': 'modal-system-messages', 
+        'title':'Hello world!'
     }
 }"></div>
 ```
